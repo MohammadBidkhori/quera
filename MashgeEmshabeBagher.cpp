@@ -12,6 +12,7 @@ int main() {
         }
         else{
             if(stoi(temp)==0 || stoi(temp)>=180){
+                sum=0;
                 break;
             }else{
                 sum+=stoi(temp);
